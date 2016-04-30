@@ -1,0 +1,26 @@
+baseurl = "http://philcryer.com/"
+languageCode = "en-us"
+title = "Phil Cryer"
+canonifyUrls = "true"
+theme = "landing-page-hugo-pc"
+
+[params]
+    description = "an open source technologist and privacy advocate"
+    description2 = "with a passion for art and music"
+
+[[params.social]]
+    title = "github"
+    icon = "github"
+    url = "https://github.com/philcryer"
+[[params.social]]
+    title = "linkedin"
+    icon = "linkedin"
+    url = "https://linkedin.com/in/philcryer"
+[[params.social]]
+    title = "email"
+    icon = "envelope-o"
+    url = "mailto:hello@philcryer.com"
+[[params.social]]
+    title = "pgpkey"
+    icon = "lock"
+    url = "https://raw.githubusercontent.com/philcryer/philcryer.com/master/philcryer.com/public_key.asc"

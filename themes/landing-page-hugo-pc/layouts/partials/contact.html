@@ -1,0 +1,37 @@
+{{ if isset .Site.Params "social" }}
+<section id="contact">
+<div class="contact">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-lg-6">
+                    <h2>Contact</h2>
+                <h1>&nbsp;</h1>
+			</div>
+
+			<div class="col-lg-6">
+				<ul class="list-inline contact-social-buttons">
+                    {{ partial "social.html" . }}
+				</ul>
+			</div>
+		</div><!-- /.row -->
+	</div><!-- /.container -->
+</div><!-- /.contact -->
+
+<!-- Thanks Section -->
+<section id="about" class="container content-section text-center">
+{{ range where .Data.Pages "Section" "thanks" | first 1 }}
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2">
+		<!--	<br/>
+			<br/>
+            <h2>{{ .Title }}</h2>-->
+            <br/>
+			{{ .Content }}
+			<br/>
+		</div>
+	</div>
+{{ end }}
+</section>
+</section>
+{{ end }}
