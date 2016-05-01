@@ -23,4 +23,4 @@ theme = "landing-page-hugo-pc"
 [[params.social]]
     title = "pgpkey"
     icon = "lock"
-    url = "https://raw.githubusercontent.com/philcryer/philcryer.com/master/philcryer.com/public_key.asc"
+    url = "https://keybase.io/fak3r/key.asc"

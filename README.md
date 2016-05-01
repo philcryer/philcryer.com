@@ -5,5 +5,7 @@ This is the code for my personal homepage, [philcryer.com](http://philcryer.com)
 * TODO https
 * TODO provide build instructions
 * TODO add licence file
+* TODO add terms/conditions
+* TODO add privacy
 
 ### Thanks
