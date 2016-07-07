@@ -63,7 +63,7 @@ theme = "academic"
   [params.contact]
     enable = true
     title = "Contact"
-    subtitle = "SMS or Email preferred"
+    subtitle = ""
     autolink = true  # Automatically link email and phone?
 
   # Social/Academic Networking
