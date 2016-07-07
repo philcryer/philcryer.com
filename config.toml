@@ -1,26 +1,148 @@
 baseurl = "http://philcryer.com/"
-languageCode = "en-us"
 title = "Phil Cryer"
-canonifyUrls = "true"
-theme = "landing-page-hugo-pc"
+copyright = "&copy; 2016 Phil Cryer"
+languageCode = "en-us"
+theme = "academic"
 
 [params]
-    description = "an open source technologist and privacy advocate"
-    description2 = "with a passion for art and music"
+  name = "Phil Cryer"
+  role = "an open source technologist"
+  organization = "and privacy advocate"
+  avatar = "portrait.jpg"
+  email = "phil@philcryer.com"
+  address = "Saint Louis, Missouri, USA"
+  phone = "386.463.2537" 
+  sms = "386.463.2537" 
+  date_format = "Mon, Jan 2, 2006"
+  sharing = true
 
-[[params.social]]
-    title = "github"
+  # Biography section - only be displayed if `content/home/about.md` exists
+  [params.about]
+    interests = ["Digital Rights", "Online Privacy", "IoT (Internet of things)", "Art history and painting"]
+    str_interests = "Interests"
+    str_education = "Education"
+
+    [[params.about.education]]
+      course = "BFA (studio art, interior design)"
+      institution = "Maryville University"
+      year = ""
+
+    [[params.about.education]]
+      course = "General studies"
+      institution = "University of Missouri Columbia"
+      year = ""
+
+  # Selected Publications section - only displayed if there are publications with `selected = true` in their `+++` preamble
+  [params.publications_selected]
+    detailed_list = true
+    title = "Selected Publications"
+    subtitle = ""
+
+  # Publications section - only displayed if there are publications in `content/publication/`
+  [params.publications]
+    count = 10
+    detailed_list = false
+    title = "Recent Publications"
+    subtitle = ""
+    str_all = "More Publications"
+
+  # Posts section - only displayed if there are posts in `content/post/`
+  [params.posts]
+    count = 5
+    title = "Recent Posts"
+    subtitle = ""
+    str_all = "More Posts"
+    str_read_more = "Read more"
+
+  # Projects section - only displayed if there are projects in `content/project/`
+  [params.projects]
+    title = "Projects"
+    subtitle = ""
+
+  # Contact section
+  [params.contact]
+    enable = true
+    title = "Contact"
+    subtitle = "SMS or Email preferred"
+    autolink = true  # Automatically link email and phone?
+
+  # Social/Academic Networking
+  # Icon pack "fa" Font Awesome: https://fortawesome.github.io/Font-Awesome/icons/
+  # Icon pack "ai" Academic network: https://jpswalsh.github.io/academicons/
+  [[params.social]]
     icon = "github"
-    url = "https://github.com/philcryer"
-[[params.social]]
-    title = "linkedin"
+    icon_pack = "fa"
+    link = "//github.com/philcryer"
+
+  [[params.social]]
     icon = "linkedin"
-    url = "https://linkedin.com/in/philcryer"
-[[params.social]]
-    title = "email"
-    icon = "envelope-o"
-    url = "mailto:hello@philcryer.com"
-[[params.social]]
-    title = "pgpkey"
-    icon = "lock"
-    url = "https://keybase.io/fak3r/key.asc"
+    icon_pack = "fa"
+    link = "https://linkedin.com/in/philcryer"
+
+  [[params.social]]
+    icon = "slideshare"
+    icon_pack = "fa"
+    link = "https://www.slideshare.net/phil.cryer"
+
+  [[params.social]]
+    icon = "key"
+    icon_pack = "fa"
+    link = "https://keybase.io/fak3r"
+
+  [[params.social]]
+    icon = "envelope"
+    icon_pack = "fa"
+    link = "mailto:phil@philcryer.com"
+
+# Navigation Links - The weight parameter defines the order that the links will appear in.
+[[menu.main]]
+  name = "Home"
+  url = "#top"
+  weight = 1
+
+[[menu.main]]
+  name = "Technology"
+  url = "#technology"
+  weight = 2
+
+[[menu.main]]
+  name = "Speaking"
+  url = "#speaking"
+  weight = 3
+
+[[menu.main]]
+  name = "Art"
+  url = "#art"
+  weight = 4
+
+[[menu.main]]
+  name = "Travel"
+  url = "#travel"
+  weight = 5
+
+[[menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 6
+
+## Disabled functionality
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable analytics by entering your Google Analytics tracking ID
+googleAnalytics = ""
+# Enable global LaTeX math rendering? If false, you can enable it locally on a per page basis.
+math = false
+  # Link custom CSS and JS assets (relative to /static/css and /static/js respectively)
+  custom_css = []
+  custom_js  = []
+
+#[[menu.main]]
+#  name = "Publications"
+#  url = "#publications"
+#  weight = 2
+
+#[[menu.main]]
+#  name = "Projects"
+#  url = "#projects"
+#  weight = 2
+
