@@ -47,12 +47,12 @@ theme = "academic"
     str_all = "More Publications"
 
   # Posts section - only displayed if there are posts in `content/post/`
-  [params.posts]
-    count = 5
-    title = "Recent Posts"
-    subtitle = ""
-    str_all = "More Posts"
-    str_read_more = "Read more"
+  #[params.posts]
+  #  count = 5
+  #  title = "Recent Posts"
+  #  subtitle = ""
+  #  str_all = "More Posts"
+  #  str_read_more = "Read more"
 
   # Projects section - only displayed if there are projects in `content/project/`
   [params.projects]
