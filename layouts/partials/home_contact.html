@@ -11,17 +11,6 @@
     </li>
     {{ end }}
 
-    {{ with .Site.Params.pgp_key }}
-    <li>
-        <i class="fa fa-key fa-fw" aria-hidden="true" title="My PGP public key"></i>
-        {{ if and (isset $.Site.Params.contact "autolink") (eq $.Site.Params.contact.autolink false) }}
-        <span>{{ . }}</span>
-        {{ else }}
-        <span><a href="{{ . }}">My PGP public key</a></span>
-        {{ end }}
-    </li>
-    {{ end }}
-
     {{ with .Site.Params.email }}
     <li>
         <i class="fa fa-envelope fa-fw" aria-hidden="true" title="Email"></i>
@@ -29,6 +18,17 @@
         <span>{{ . }}</span>
         {{ else }}
         <span><a href="mailto:{{ . }}">{{ . }}</a></span>
+        {{ end }}
+    </li>
+    {{ end }}
+
+    {{ with .Site.Params.pgp_key }}
+    <li>
+        <i class="fa fa-key fa-fw" aria-hidden="true" title="Public encryption key"></i>
+        {{ if and (isset $.Site.Params.contact "autolink") (eq $.Site.Params.contact.autolink false) }}
+        <span>{{ . }}</span>
+        {{ else }}
+        <span><a href="{{ . }}">Public encryption key</a></span>
         {{ end }}
     </li>
     {{ end }}
