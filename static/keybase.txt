@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/fak3r
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://philcryer.com
+  * I am fak3r (https://keybase.io/fak3r) on keybase.
+  * I have a public key with fingerprint A770 47C7 F6B6 2C9E B80F  326F 04A1 69CC A79F 7188
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101a5c21abbb2d7ef765105d6fc6bc7c3fc0667604aa687fa764c972ee0422a62270a",
+            "fingerprint": "a77047c7f6b62c9eb80f326f04a169cca79f7188",
+            "host": "keybase.io",
+            "key_id": "04a169cca79f7188",
+            "kid": "0101a5c21abbb2d7ef765105d6fc6bc7c3fc0667604aa687fa764c972ee0422a62270a",
+            "uid": "6fcb2ceda5d8ed99872e9b491eb3b400",
+            "username": "fak3r"
+        },
+        "revoke": {
+            "sig_ids": [
+                "61e9d471f27d36314553a3457695be1729209981f4044b3dd9217a7a107facfa0f"
+            ]
+        },
+        "service": {
+            "hostname": "philcryer.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1479354511,
+    "expire_in": 157680000,
+    "prev": "af3a60ad2b533f2c5e3acb1850d36c9a76244f8326f60e16607ab876048215ea",
+    "seqno": 76,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.58
+Comment: https://keybase.io/crypto
+
+yMJvAnicrZJbaBRJFIYn3nAHZFyvICKx0DW6Y6iqrq7qHndFUbygARUfNLs6VlVX
+Jc0k02P3ZDTeX7wh3t1VMSQI6oMgosTdsIr3C+qyuigoqIkoKogoBhQFEaujPvlq
+vzRd/Z//fPWfc7FP90SyrNm/cKT/ocfJsuvnOhsS88ZWbF0OROA1gsxykFNdL1Xn
+qaiYzfkeyACIIOK2xIgLIbDHlGbURtD2qJZUSCYtLSGljELCOXWY5owS6TKsFCQY
+c4oxgxykgfbzNSoshH6+aGw5Y5AwyTQVFEtXCQdqC1NtXBB1peTM1Qw5jimsDaK4
+wsAJHqlKPzBn5iP7Ge9b/XfmbuiyM1UCS+Vx23OU57qOEbqCuEgJSxAIY2Gkwjyv
+V0atec4Kwco0CFUpyKk41MivMcQRyPwGKFKuRxjSmHkWtRCxbYtbxGbUtYVCDLsY
+mg5IE0iIsDzPxYhxxhE0lFJzqMEC423alXzZZR5H9KV1odavk2GjCitlUG+oCmFQ
+DGRQZ37VFouFKBNjFRsLsXaJEtkvLlnh5z0zIVNRUmHkB3mQQUYpi35siwhzLZvY
+CKWBWlrwQ5X1Y4VhdqB54j6qFM9VW5xC7mFhW5bG0lYWlwI5NjRXla4JGROinXjU
+FCpEKWRcOPEUHIxsFQceqcX5AGQYNZy8xnia6PK82BAqsPL82d97JMqSiV49u8Wr
+m0j+0PfrQq993Dux8cmRnePaJwxLnapNTdzysX/19fm/9hrWOQAd7ZNe8fqnsa2V
+P6d6Rt0LLYcPVnWcmftX6fmd/wedHlN1nx58lzy5a9ngzhsjX636ZRtrqTte1QFz
+C0d1zNjzvLr1QOrB05GXr728un9K06aB29beHHhsdvq/U7337b2xveXki/qN5e/f
+3t1wr/rtqAkTp/3xYS6e0rouvLIjMWnXzbbcgEkzUc2ezSOaq9vPVWX+XHxg8tR1
+XtPFtpnt864eB/XJivbygi2ereg7vHzN6en9rBMP+NC9Tx+tfvNoXL5yyZnb828P
+Jut7XG5L7L7244LZlzovzPm7bcc/s26NT116OGL0iSFlD9/cq9jyb9OHRc8+AXPy
+WUY=
+=b6vV
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/fak3r
+
+==================================================================
