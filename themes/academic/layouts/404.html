@@ -18,8 +18,8 @@
     {{ range last 20 (where .Data.Pages "Section" "=" "publication") }}
     <ul>
         <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-    </ul>-->
-    {{ end }}
+    </ul>
+    {{ end }}-->
 
 </div>
 {{ partial "footer_container.html" . }}
