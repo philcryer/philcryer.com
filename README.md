@@ -4,7 +4,7 @@ This is the code for my personal homepage, [philcryer.com](http://philcryer.com)
 
 ## Build
 
-* install [Hugo](https://gethugo.io)
+* install [Hugo](https://gohugo.io)
 * checkout the code
 
 ```
