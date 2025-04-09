@@ -4,8 +4,7 @@ list:
 	@echo "  - dev: run astro dev server"
 	@echo "  - build: build astro project"
 	@echo "  - build-verbose: build astro project with debug"
-#	@echo "  - build-prod: build astro project for prod with prettier"
-#	@echo "  - build-prod-deploy: build astro project for prod with prettier and deploy"
+	@echo "  - build-deploy: build astro project for and deploy"
 	@echo "  - deploy: deploy built astro project"
 
 install:
@@ -21,15 +20,11 @@ build:
 build-verbose:
 	npm run build -- --verbose
 
-build-prod:
-#	npm run prettier
-	npm run build
-
-build-prod-deploy:
-#	npm run prettier
+build-deploy:
 	npm run build
 	rsync -aP dist/ linuxuser@hector:/home/linuxuser/docker/philcryer-com/html
+	ssh linuxuser@hector -t 'cd docker/philcryer-com; docker compose down; docker compose up -d --remove-orphans --force-recreate'
 
 deploy:
-#	rsync -aP dist/ phil@mookie:/var/www/html/beta.fak3r.com
 	rsync -aP dist/ linuxuser@hector:/home/linuxuser/docker/philcryer-com/html
+	ssh linuxuser@hector -t 'cd docker/philcryer-com; docker compose down; docker compose up -d --remove-orphans --force-recreate'
