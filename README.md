@@ -1,10 +1,10 @@
 # philcryer.com
 
-This is the code for my personal homepage, [philcryer.com](http://philcryer.com), built with [Hugo](https://gohugo.io).
+This is the code for my personal homepage, [philcryer.com](http://philcryer.com), re-built in 2025 with [Treelink](https://treelink.app/).
 
 ## Build
 
-* install [Hugo](https://gohugo.io)
+* install git
 * checkout the code
 
 ```
@@ -12,13 +12,21 @@ git clone https://github.com/philcryer/philcryer.com.git
 cd philcryer
 ```
 
-* build
+* install nodejs + npm
+* install nodejs components
 
-```
-hugo
+```shell
+cd treelink
+npm install
 ```
 
-* view the site in the `public/` directory
+* build site
+
+```shell
+npm run build
+```
+
+* view the site in the `dist/` directory and deploy those files
 
 ## License
 
@@ -27,6 +35,6 @@ MIT
 ## TODO
 
 * add terms/conditions 
-* add privacy
+* add privacy policy
 
 ### Thanks
