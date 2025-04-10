@@ -28,6 +28,12 @@ npm run build
 
 * view the site in the `dist/` directory and deploy those files
 
+* view (short) build number
+
+```shell
+git rev-parse --short HEAD
+```
+
 ## License
 
 MIT
