@@ -1,6 +1,6 @@
 # philcryer.com
 
-This is the code for my personal homepage, [philcryer.com](http://philcryer.com), re-built in 2025 with [Treelink](https://treelink.app/).
+This is the code for my personal homepage, [philcryer.com](http://philcryer.com), re-built in 2025 with [Astro](https://astro.build/), and the theme [ShareYourLinks](https://astro.build/themes/details/shareyourlinks/).
 
 ## Build
 
@@ -16,8 +16,14 @@ cd philcryer
 * install nodejs components
 
 ```shell
-cd treelink
+cd ShareYourLinks
 npm install
+```
+
+* run dev site, which will auto rebuild when any files change
+
+```shell
+npm run dev
 ```
 
 * build site
