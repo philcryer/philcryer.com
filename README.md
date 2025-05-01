@@ -13,7 +13,7 @@ cd philcryer
 ```
 
 * install nodejs + npm
-* install nodejs components
+* install nodejs components for the project
 
 ```shell
 cd ShareYourLinks
@@ -40,9 +40,23 @@ npm run build
 git rev-parse --short HEAD
 ```
 
+## Makefile
+
+I have an included Makefile that handles a lot of the npm tasks, and the deployment to my server. You'll need to change the deploy steps, but the other ones are helpful. Run make without any arguments to see what it can do
+
+```sh
+make
+  - install: install needed npm packages for this project
+  - dev: run the astro dev server, featuring live reload on changes
+  - build: build the astro project to the dist/ directory
+  - build-debug: build the astro project with the debug flag on
+  - build-deploy: build the astro project and deploy the contents of dist/
+  - deploy: deploy the contents of dist/
+```
+
 ## License
 
-MIT
+[MIT License](https://github.com/philcryer/philcryer.com/blob/main/LICENSE)
 
 ## TODO
 

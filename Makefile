@@ -1,11 +1,10 @@
 list:
-	@echo "All commands:"
-	@echo "  - install: install all npm packages"
-	@echo "  - dev: run astro dev server"
-	@echo "  - build: build astro project"
-	@echo "  - build-verbose: build astro project with debug"
-	@echo "  - build-deploy: build astro project for and deploy"
-	@echo "  - deploy: deploy built astro project"
+	@echo "  - install: install needed npm packages for this project"
+	@echo "  - dev: run the astro dev server, featuring live reload on changes"
+	@echo "  - build: build the astro project to the dist/ directory"
+	@echo "  - build-debug: build the astro project with the debug flag on"
+	@echo "  - build-deploy: build the astro project and deploy the contents of dist/"
+	@echo "  - deploy: deploy the contents of dist/"
 
 install:
 	npm install
@@ -17,7 +16,7 @@ dev:
 build:
 	npm run build
 
-build-verbose:
+build-debug:
 	npm run build -- --verbose
 
 build-deploy:
