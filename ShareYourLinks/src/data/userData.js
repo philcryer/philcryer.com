@@ -37,30 +37,41 @@ const socialLinks = [
 
 const userLinks = [
     {
-        title: "fak3r - my blog, since 2005",
-        link:"https://fak3r.com/",
-        icon:"mdi:space-invaders"
+        title: "fak3r: my blog, since 2005",
+        link: "https://fak3r.com/",
+        icon: "mdi:space-invaders"
     },
     {
-        title: "Presentations - slides and papers",
-        link:"https://www.slideshare.net/phil.cryer",
-        icon:"simple-icons:slideshare"
+        title: "lowf.at: watch this space for great justice",
+        link: "https://lowf.at/",
+        icon: "lets-icons:fat"
     },
     {
-        title: "lowf.at - watch this space",
-        link:"https://lowf.at/",
-        icon:"lets-icons:fat"
+        title: "Presentations: slides and papers",
+        link: "https://www.slideshare.net/phil.cryer/presentations",
+        icon: "simple-icons:slideshare"
+    },
+    { 
+        title: "Photos: favorites from the past year",
+        link: "https://photos.app.goo.gl/1n8TpYf1QSAMPRaz6",
+        icon: "mdi:images-outline"
     },
     {
-        title: "Last.fm - music I've been listening to",
+        title: "Last.fm: music I am listening to",
 	link: "https://www.last.fm/user/fak3r",
         icon: "fa:lastfm-square"
     },
     {
-        title: "Bandcamp - music I've bought",
+        title: "Bandcamp: music I have bought",
 	link: "https://bandcamp.com/philcryer",
         icon: "fa:bandcamp"
     },
+    {
+        title: "Code: source and credit for this page",
+	link: "https://github.com/philcryer/philcryer.com",
+        icon: "fa:code-fork"
+    },
+
 ]
 
 export { userData, userLinks, socialLinks };
