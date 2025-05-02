@@ -57,7 +57,7 @@ make
  
 ## TODO
  
-* Build footer with the date, a link to this github page, and a short build hash linked to the commit `npm` used to build; reproducible builds FTW!
+* Build a footer with the date, a link to this github page, and a short build hash linked to the commit `npm` used to build; reproducible builds FTW!
  
 ```shell
 git rev-parse --short HEAD
