@@ -4,42 +4,46 @@ This is the code for my personal homepage, [philcryer.com](http://philcryer.com)
  
 ## Build
  
-* install git
-* checkout the code
+* Install `git`
+* Checkout the code
  
 ```
 git clone https://github.com/philcryer/philcryer.com.git
 cd philcryer
 ```
-* install nodejs + npm
-* install required nodejs components for the project
+
+* Install `nodejs` and `npm`
+* Install required `nodejs` components for the project
  
 ```shell
 npm install
 ```
  
-* run dev site, which will auto rebuild when it senses any file changes
+* Run dev site, which will automatically rebuild when it senses any file changes
  
 ```shell
 npm run dev
 ```
  
-* view the site in your browser, by default it will appear at [http://localhost:4321](http://localhost:4321), any changes to the source files will be reloaded automatically in your browser
+* View the site in your browser, by default it will appear at [http://localhost:4321](http://localhost:4321), any changes to the source files will be reloaded automatically in your browser
  
 > [!NOTE]
 > To use this project for yourself, simply edit the content of `src/data/userData.js` with your details
  
-* build the site
+* Build the site
  
 ```shell
 npm run build
 ```
  
-* the files are output to the `dist/` directory, which you can then deploy to a webserver, see the Makefile for a deploy example
+* The files are output to the `dist/` directory, which you can then deploy to a webserver, see the Makefile for a deploy example
  
 ## Makefile
  
-The included Makefile handles a lot of the npm tasks, including building and deploying to my server. You'll need to change those steps for your environment, but the other ones are helpful. Run make without any arguments to see all of its abilities
+The included Makefile handles a lot of the npm tasks, including building and deploying to my server. You'll need to change those steps for your environment, but the other ones are helpful. 
+
+* Install `make`
+* Run make without any arguments to see all of its abilities
  
 ```sh
 make
@@ -53,14 +57,14 @@ make
  
 ## TODO
  
-* build a brief footer with the date, a link to this github page, and a short build hash linked to the commit npm used to build the page. Reproducible builds FTW!
+* Build footer with the date, a link to this github page, and a short build hash linked to the commit `npm` used to build; reproducible builds FTW!
  
 ```shell
 git rev-parse --short HEAD
 ```
  
-* terms/conditions page
-* privacy policy page
+* Add a terms/conditions page
+* Add a privacy policy page
   
 ## License
  
