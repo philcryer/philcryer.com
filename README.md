@@ -24,7 +24,7 @@ npm install
 npm run dev
 ```
  
-* view the site in your browser, by default it will appear at [http://localhost:4321]), any changes to the source files will be reloaded automatically in your browser
+* view the site in your browser, by default it will appear at [http://localhost:4321](http://localhost:4321), any changes to the source files will be reloaded automatically in your browser
  
 > [!NOTE]
 > To use this project for yourself, simply edit the content of `src/data/userData.js` with your details
