@@ -23,8 +23,8 @@ build-debug:
 build-deploy: build deploy
 
 deploy:
-	rsync -aP dist/ linuxuser@hector:/home/linuxuser/docker/philcryer-com/html
-	ssh linuxuser@hector -t 'cd docker/philcryer-com; docker compose down; docker compose up -d --remove-orphans --force-recreate'
+	rsync -aP dist/ linuxuser@hector:/home/linuxuser/docker/philcryer.com/html
+	ssh linuxuser@hector -t 'cd docker/philcryer.com; docker compose down; docker compose up -d --remove-orphans --force-recreate'
 
 clean:
 	rm -rf dist/*

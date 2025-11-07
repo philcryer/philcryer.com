@@ -14,11 +14,6 @@ const socialLinks = [
     socialIcon: "ic:baseline-email",
   },
   {
-    socialName: "Mastodon",
-    socialUl: "https://mastodon.social/@fak3r",
-    socialIcon: "simple-icons:mastodon",
-  },
-  {
     socialName: "Signal",
     socialUl: "https://signal.me/#eu/8SlcOKe2LJGmr7rMMJ9tUXTjPh3LKYyohti4aCD8TKn6V75UydpITqOogsW4a3bg",
     socialIcon: "simple-icons:signal",
