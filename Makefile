@@ -43,18 +43,8 @@ build-prod-deploy:
 	rsync -aP dist/ linuxuser@hector:docker/philcryer.com/html
 
 deploy:
-<<<<<<< HEAD
 	rsync -aP dist/ linuxuser@hector:/home/linuxuser/docker/philcryer.com/html
 	ssh linuxuser@hector -t 'cd docker/philcryer.com; docker compose down; docker compose up -d --remove-orphans --force-recreate'
 
 clean:
 	rm -rf dist/*
-||||||| c1f2837
-	rsync -aP dist/ linuxuser@hector:/home/linuxuser/docker/philcryer-com/html
-	ssh linuxuser@hector -t 'cd docker/philcryer-com; docker compose down; docker compose up -d --remove-orphans --force-recreate'
-
-clean:
-	rm -rf dist/*
-=======
-	rsync -aP dist/ linuxuser@hector:docker/philcryer.com/html
->>>>>>> refs/remotes/origin/main
