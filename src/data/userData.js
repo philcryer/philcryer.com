@@ -3,7 +3,7 @@ const userData = [
     userName: "Phil Cryer",
     userDesc: "Open source technologist and privacy advocate",
     userPic: "/img/profile-picture.jpg",
-    userPicDark: "/img/pedro_raccon.gif",
+    userPicDark: "/img/profile-picture.jpg",
   },
 ];
 
@@ -32,7 +32,7 @@ const socialLinks = [
 
 const userLinks = [
     {
-        title: "fak3r: my blog, since 2005",
+        title: "fak3r.com: my blog since 2005",
         link: "https://fak3r.com/",
         icon: "mdi:space-invaders"
     },
@@ -52,7 +52,7 @@ const userLinks = [
         icon: "mdi:images-outline"
     },
     {
-        title: "Last.fm: music I am listening to",
+        title: "Last.fm: music I am listening to now",
 	link: "https://www.last.fm/user/fak3r",
         icon: "fa:lastfm-square"
     },

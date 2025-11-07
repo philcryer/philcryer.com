@@ -1,15 +1,17 @@
 list:
-	@echo "  - install: install required npm packages for this project"
-	@echo "  - dev: run the astro dev server, featuring live reload on changes"
-	@echo "  - build: build the astro project to the dist/ directory"
-	@echo "  - build-debug: build the astro project with the debug flag on"
-	@echo "  - build-deploy: build the astro project and deploy the contents of dist/"
-	@echo "  - deploy: deploy the contents of dist/"
-	@echo "  - clean: removed all contents from the dist/ directory"
+	@echo "All commands:"
+	@echo "  - install: install all npm packages"
+	@echo "  - dev: run astro dev server"
+	@echo "  - build: build astro project"
+	@echo "  - build-verbose: build astro project with debug"
+	@echo "  - build-prod: build astro project for prod with prettier"
+	@echo "  - build-prod-deploy: build astro project for prod with prettier and deploy"
+	@echo "  - deploy: deploy built astro project"
 
 install:
 	npm install
 	npm audit fix
+	npm audit fix --force
 
 dev:
 	npm run dev
@@ -17,14 +19,42 @@ dev:
 build:
 	npm run build
 
-build-debug:
+build-verbose:
 	npm run build -- --verbose
 
-build-deploy: build deploy
+build-prod:
+#	build_hash_short=$(git rev-parse --short HEAD);
+#	build_hash_full=$(git rev-parse HEAD)
+#	cp src/components/Footer.astro.dist src/components/Footer.astro
+#	sed -i "s/BUILD_HASH_FULL/${git rev-parse --short HEAD}/g" src/components/Footer.astro
+#	sed -i "s/BUILD_HASH_SHORT/${build_hash_short}/g" src/components/Footer.astro
+	npm run prettier
+	npm run build
+#	cp src/components/Footer.astro.dist src/components/Footer.astro
+
+build-prod-deploy:
+#	build_hash_short=$(git rev-parse --short HEAD); build_hash_full=$(git rev-parse HEAD)
+#	cp src/components/Footer.astro.dist src/components/Footer.astro
+#	sed -i "s/BUILD_HASH_FULL/$build_hash_full/g" src/components/Footer.astro
+#	sed -i "s/BUILD_HASH_SHORT/$build_hash_short/g" src/components/Footer.astro
+	npm run prettier
+	npm run build
+#	cp src/components/Footer.astro.dist src/components/Footer.astro
+	rsync -aP dist/ linuxuser@hector:docker/philcryer.com/html
 
 deploy:
+<<<<<<< HEAD
 	rsync -aP dist/ linuxuser@hector:/home/linuxuser/docker/philcryer.com/html
 	ssh linuxuser@hector -t 'cd docker/philcryer.com; docker compose down; docker compose up -d --remove-orphans --force-recreate'
 
 clean:
 	rm -rf dist/*
+||||||| c1f2837
+	rsync -aP dist/ linuxuser@hector:/home/linuxuser/docker/philcryer-com/html
+	ssh linuxuser@hector -t 'cd docker/philcryer-com; docker compose down; docker compose up -d --remove-orphans --force-recreate'
+
+clean:
+	rm -rf dist/*
+=======
+	rsync -aP dist/ linuxuser@hector:docker/philcryer.com/html
+>>>>>>> refs/remotes/origin/main
