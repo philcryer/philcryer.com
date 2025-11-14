@@ -6,8 +6,6 @@
 1) Register with the state
     * You can register an LLC with the state [Missouri Department of Revenue](https://dor.mo.gov/), cost is $25
     * They'll give you a number for your LLC 
-
-   > [!IMPORTANT]
    > Action: decide if you want to register manually or use a service
 
 1) Use a Service to register
@@ -17,9 +15,8 @@
         - for 49$ they’ll do the registration and lookup, for another $51 they take care of other tasks, so only about $100 total
         - or for $200, they give you sample contract, and work on other items 
             * the can also wills, etc
-> [!TIP]
-> do not Register in MO and then Incorporate in MO - instead, register in MO but then incorporate in Delaware (if you have a huge company), or Wyoming or Nevada, both have much better privacy protections   > [!IMPORTANT]
-> Action: Decide on bizee or nolo
+   > TIP: do not Register in MO and then Incorporate in MO - instead, register in MO but then incorporate in Delaware (if you have a huge company), or Wyoming or Nevada, both have much better privacy
+   > Action: Decide on bizee or nolo
 
 1) Make sure name is unique
     * search on [bsd.sos.mo.gov](https://bsd.sos.mo.gov/search) for desired name in MO to see it is available
