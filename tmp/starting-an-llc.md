@@ -16,6 +16,7 @@
         - or for $200, they give you sample contract, and work on other items 
             * the can also wills, etc
    > TIP: do not Register in MO and then Incorporate in MO - instead, register in MO but then incorporate in Delaware (if you have a huge company), or Wyoming or Nevada, both have much better privacy
+   
    > Action: Decide on bizee or nolo
 
 1) Make sure name is unique
