@@ -21,25 +21,21 @@
 
 1) Make sure name is unique
     * search on [bsd.sos.mo.gov](https://bsd.sos.mo.gov/search) for desired name in MO to see it is available
-> [!IMPORTANT]
-> Action: Ensure name is unique and available
+   > Action: Ensure name is unique and available
 
 1) Use a Registered Agent
     * In MO you can use a ‘registered agent’ to register, and do other things you need for your LLC, register at [Missouri Registered Agent](https://www.missouriregisteredagent.com/) ($40/year)
         * then if your business gets sued they take on all of your legal info
         * They can help with taxes, banking and other things
     * NOTE: bizee can give a WY agent, $25/year
-> [!IMPORTANT]
-> Action: Sign up for a Registered Agent
+   > Action: Sign up for a Registered Agent
 
 1) Virtual phone number
     * do not use home phone, or cell number for your business
     * Register with a service like [Grasshopper](https://grasshopper.com/) or Ring Central to get a phone number to use for your business
-> [!IMPORTANT]
-> Action: Sign up for a virtual phone number
+   > Action: Sign up for a virtual phone number
 
 1) Virtual Office
     * do not use your home address for your LLC
     * Register with a service to get a virtual office (in WY, casper) $29/month
-> [!IMPORTANT]
-> Action: Sign up for a virtual office address/PO box
+   > Action: Sign up for a virtual office address/PO box
