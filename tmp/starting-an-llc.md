@@ -7,8 +7,8 @@
     * You can register an LLC with the state [Missouri Department of Revenue](https://dor.mo.gov/), cost is $25
     * They'll give you a number for your LLC 
 
-> [!IMPORTANT]
-> Action: decide if you want to register manually or use a service
+   > [!IMPORTANT]
+   > Action: decide if you want to register manually or use a service
 
 1) Use a Service to register
     A service can register the LLC for you, and do other things you need to do to register your LLC
