@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 ## Documents
 
 1) Needed documents
@@ -54,9 +46,8 @@ fractional employment is FT but only 10 hours/week but can be for years
 
 ## To get work
 
-https://www.mbopartners.com/
-
-fractional jobs .io - devops roles, etc
+* [MBO Marketplace](https://www.mbopartners.com/) - saw a few DevOps roles there, as well. It’s run by KPMG and Grant Thornton. You have to set up a profile, but then applying for roles is quick – 1-2 minutes.
+* fractional jobs .io - devops roles, etc
 
 
 
