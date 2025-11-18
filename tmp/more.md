@@ -51,6 +51,11 @@ have rich review when I'm filling it out, before submitted
 fractional employment is FT but only 10 hours/week but can be for years
 …
 
+
+## To get work
+
+https://www.mbopartners.com/
+
 fractional jobs .io - devops roles, etc
 
 
