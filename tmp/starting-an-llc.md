@@ -8,6 +8,8 @@
     * They'll give you a number for your LLC 
    > Action: decide if you want to register manually or use a service
 
+  -- OR --
+  
 1) Use a Service to register
     A service can register the LLC for you, and do other things you need to do to register your LLC
     * https://bizee.com/
