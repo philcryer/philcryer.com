@@ -42,7 +42,7 @@ How to get work, sites, organizations, etc.
       * solution arch, eng
    * [MBO Marketplace](https://www.mbopartners.com/) - saw a few DevOps roles there, as well. It’s run by KPMG and Grant Thornton. You have to set up a profile, but then applying for roles is quick – 1-2 minutes
    * fractional jobs .io - devops roles, etc (fractional employment is FT but only 10 hours/week but can be for years)
-   * [The Connective](https://www.theconnective.me/] - put out by nolodex - where you can setup your own community
+   * [The Connective](https://www.theconnective.me/) - put out by nolodex - where you can setup your own community
   
 Rich will refer me to:
 
