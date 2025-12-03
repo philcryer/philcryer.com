@@ -97,3 +97,21 @@ applied via indeed (specific skillsets) to find work
 works with ‘groups of contractors’
 
 
+## Naming
+
+### Available
+
+* silverbeet.net
+* silverbeet.it
+* silverbeet.io
+* silverbeet.tech
+
+### Not available
+
+* silverbeet.com (taken)
+
+#### DNS Registrar
+
+https://gandi.net/
+https://porkbun.com/
+
